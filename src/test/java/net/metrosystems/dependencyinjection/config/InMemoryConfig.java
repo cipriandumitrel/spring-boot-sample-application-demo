@@ -10,7 +10,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import javax.sql.DataSource;
 
 @Configuration
-@PropertySource("classpath:test_db.properties")
+@PropertySource("test_db.properties")
 public class InMemoryConfig {
 
   @Autowired
